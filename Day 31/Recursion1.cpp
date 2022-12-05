@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
-
 int fact(int n){
     int ans;
     return n==0 ?  1 : n * fact(n-1); 
