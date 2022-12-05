@@ -21,8 +21,12 @@ int main(){
     int n = 4;
     int key = 2;
     linear(arr,n,key);
-
-    return (linear) ?  1 :  0 ;
+if(linear){
+    cout<<"present"<<endl;
+}
+else{
+    cout<<"absent"<<endl;
+}
 
 
     return 0;

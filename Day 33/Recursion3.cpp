@@ -16,7 +16,7 @@ bool issorted(int arr[], int n){
 
 
 int main(){
-     int arr[4]={1,2,13,4};
+     int arr[4]={1,2,3,4};
      int n = 4;
      bool ans = issorted(arr,n);
      if(ans)
