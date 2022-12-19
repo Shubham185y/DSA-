@@ -9,13 +9,9 @@ bool checkpalindrome(int i, int j , string str){
         return false;
     }
     else{
-        return checkpalindrome(i++,j--,str);
+      return checkpalindrome(i+1,j-1,str);
     }
 }
-
-
-
-
 
 void rev(int i, int j, string& s){
     if(i>j){
