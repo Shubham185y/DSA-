@@ -68,7 +68,7 @@ int main() {
     st.push(44);
     st.push(22);
     st.push(43);
-    st.push(44);
+
 
     cout << st.peek() << endl;
 

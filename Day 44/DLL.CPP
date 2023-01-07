@@ -16,6 +16,9 @@ class Node{
 
 };
 insertAtHead(Node* &head, int data){
+    if(head == NULL){
+        
+    }
     Node* temp = new Node(data);
     temp -> next = head;
     head -> prev = temp;
